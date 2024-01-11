@@ -1,0 +1,16 @@
+com\maria\ass1\service\IEDeviceService.class
+com\maria\ass1\exception\UserNotFoundException.class
+com\maria\ass1\exception\ResourceNotFoundException$ResourceNotFoundExceptionBuilder.class
+com\maria\ass1\controller\DeviceController.class
+com\maria\ass1\model\Device.class
+com\maria\ass1\repository\DeviceRepository.class
+com\maria\ass1\exception\DeviceNotFoundException.class
+com\maria\ass1\exception\ResourceNotFoundException.class
+com\maria\ass1\dtos\builders\DeviceBuilder.class
+com\maria\ass1\exception\UserNotFoundAdvice.class
+com\maria\ass1\service\DeviceService.class
+com\maria\ass1\Ass1Application.class
+com\maria\ass1\exception\ControllerExceptionHandler.class
+com\maria\ass1\exception\ErrorDetails.class
+com\maria\ass1\dtos\DeviceDTO.class
+com\maria\ass1\exception\DeviceNotFoundAdvice.class

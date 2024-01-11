@@ -1,0 +1,10 @@
+/*
+Sursa: https://codepen.io/chouaibblgn45/pen/ZXKdXR
+ */
+myGrid {
+    background-image: url('https://www.electricafurnizare.ro/cms/wp-content/uploads/sites/4/2021/07/shutterstock_1190069647-2.jpg');
+    background-repeat: no-repeat;
+    background-color: #fff; /* Înlocuiește cu culoarea dorită pentru fundal */
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,38 @@
+
+.buttonAdd {
+    font: inherit;
+    color: #ffffff;
+    background-color: #0b7241;
+}
+
+.green-btn2 {
+    background-color: #08571a;
+    color: #232121;
+    margin-top: 23px;
+    padding-top: 12px;
+}
+
+.green-btn2:hover {
+    background-color: #218838;
+}
+
+.form {
+    border-radius: 20px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+}
+
+.button:hover {
+    background-color: #218838;
+}
+.unauthorized-container {
+    max-width: 800px;
+    margin: 0 auto;
+}

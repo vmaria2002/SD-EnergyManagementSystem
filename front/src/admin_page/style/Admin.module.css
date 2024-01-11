@@ -1,0 +1,22 @@
+.green-btn2 {
+    background-color: #08571a;
+    color: #232121;
+    margin-top: 2px!important;
+    padding-top: 2px!important;
+}
+
+.green-btn2:hover {
+    background-color: #218838;
+}
+
+.img2{
+    justify-content: center;
+    align-items: center;
+    margin-left: 500px!important;
+}
+.Button{
+    margin-right: 70px!important;
+    margin-top: -158pt!important;
+}
+
+

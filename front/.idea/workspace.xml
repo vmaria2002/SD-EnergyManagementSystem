@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="572f0958-aca2-4cf6-b7e7-86fba9eea502" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../spring-user/.idea/artifacts/ds_2020_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-user/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-user/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend_device/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend_device/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend_device/src/main/java/com/maria/ass1/controller/DeviceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend_device/src/main/java/com/maria/ass1/controller/DeviceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend_sensor/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend_sensor/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend_sensor/src/main/java/com/maria/ass1/controller/MonitorizareController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend_sensor/src/main/java/com/maria/ass1/controller/MonitorizareController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend_users/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend_users/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend_users/src/main/java/com/maria/ass1/Ass1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend_users/src/main/java/com/maria/ass1/Ass1Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend_users/src/main/java/com/maria/ass1/security/AuthEntryPointJwt.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend_users/src/main/java/com/maria/ass1/security/AuthEntryPointJwt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat/src/main/java/com/maria/chat/chat/WebSocketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat/src/main/java/com/maria/chat/chat/WebSocketController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin_page/Admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin_page/Admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin_page/manage_page/ManageAdmin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin_page/manage_page/ManageAdmin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin_page/manage_page/ManageDevices.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin_page/manage_page/ManageDevices.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin_page/manage_page/ManageUsers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin_page/manage_page/ManageUsers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin_page/mapping_deviceForUser/AddDeviceForUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin_page/mapping_deviceForUser/AddDeviceForUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin_page/user_control/AddUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin_page/user_control/AddUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin_page/user_control/UpdateUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin_page/user_control/UpdateUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin_page/user_control/ViewUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin_page/user_control/ViewUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/device_page/AddDevice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/device_page/AddDevice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/device_page/UpdateDevice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/device_page/UpdateDevice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/device_page/ViewDevice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/device_page/ViewDevice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/login_page/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login_page/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user_page/MyDevices.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/user_page/MyDevices.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user_page/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/user_page/User.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2XobmUeYcHzCwzqm39JMjKtzryX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "javascript.nodejs.core.library.configured.version": "16.17.1",
+    "javascript.nodejs.core.library.typings.version": "16.18.61",
+    "last_opened_file_path": "D:/An4_sem1/DS2023_30643_Vasilache_Maria_Assignment_1/front",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "ts.external.directory.path": "D:\\InteliJ\\IntelliJ IDEA 2023.2.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\An4_sem1\SD\assignment-1-vmaria2002\assignment-1-vmaria2002\front\src\chat" />
+      <recent name="D:\An4_sem1\SD\assignment-1-vmaria2002\assignment-1-vmaria2002\front" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Docker.Dockerfile" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="572f0958-aca2-4cf6-b7e7-86fba9eea502" name="Changes" comment="" />
+      <created>1699298539044</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699298539044</updated>
+      <workItem from="1699298540446" duration="8503000" />
+      <workItem from="1699308216791" duration="2599000" />
+      <workItem from="1699343692514" duration="4806000" />
+      <workItem from="1699388390214" duration="3497000" />
+      <workItem from="1699536366675" duration="23952000" />
+      <workItem from="1699693644769" duration="19171000" />
+      <workItem from="1699883525888" duration="610000" />
+      <workItem from="1699943006588" duration="11450000" />
+      <workItem from="1700143963998" duration="1409000" />
+      <workItem from="1700404144061" duration="610000" />
+      <workItem from="1700483475718" duration="16105000" />
+      <workItem from="1700515162408" duration="1296000" />
+      <workItem from="1700582882709" duration="21647000" />
+      <workItem from="1700642303594" duration="8552000" />
+      <workItem from="1700720200162" duration="9972000" />
+      <workItem from="1700751902987" duration="21679000" />
+      <workItem from="1700857111546" duration="1322000" />
+      <workItem from="1700904106893" duration="7845000" />
+      <workItem from="1701030874819" duration="521000" />
+      <workItem from="1701963975744" duration="19000" />
+      <workItem from="1701964012826" duration="27000" />
+      <workItem from="1701964056767" duration="96000" />
+      <workItem from="1702498008149" duration="81000" />
+      <workItem from="1702558114650" duration="447000" />
+      <workItem from="1703262321383" duration="1344000" />
+      <workItem from="1703274345168" duration="95000" />
+      <workItem from="1703931290547" duration="48000" />
+      <workItem from="1704114099381" duration="6543000" />
+      <workItem from="1704121889340" duration="31000" />
+      <workItem from="1704122117933" duration="19000" />
+      <workItem from="1704122261412" duration="99000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

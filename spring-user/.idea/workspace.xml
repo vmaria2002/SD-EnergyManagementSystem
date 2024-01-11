@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ds-2020:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4392c823-a521-4d9c-91b4-7e421ff00324" name="Default Changelist" comment="chart">
+      <change beforePath="$PROJECT_DIR$/../backend_device/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend_device/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend_device/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend_device/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend_device/src/main/java/com/maria/ass1/controller/DeviceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend_device/src/main/java/com/maria/ass1/controller/DeviceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend_sensor/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend_sensor/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend_sensor/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend_sensor/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend_sensor/src/main/java/com/maria/ass1/controller/MonitorizareController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend_sensor/src/main/java/com/maria/ass1/controller/MonitorizareController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend_users/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend_users/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend_users/src/main/java/com/maria/ass1/Ass1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend_users/src/main/java/com/maria/ass1/Ass1Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend_users/src/main/java/com/maria/ass1/security/AuthEntryPointJwt.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend_users/src/main/java/com/maria/ass1/security/AuthEntryPointJwt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat/src/main/java/com/maria/chat/chat/WebSocketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat/src/main/java/com/maria/chat/chat/WebSocketController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../front/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../front/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../front/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/admin_page/Admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/admin_page/Admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/admin_page/manage_page/ManageAdmin.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/admin_page/manage_page/ManageAdmin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/admin_page/manage_page/ManageDevices.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/admin_page/manage_page/ManageDevices.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/admin_page/manage_page/ManageUsers.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/admin_page/manage_page/ManageUsers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/admin_page/mapping_deviceForUser/AddDeviceForUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/admin_page/mapping_deviceForUser/AddDeviceForUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/admin_page/user_control/AddUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/admin_page/user_control/AddUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/admin_page/user_control/UpdateUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/admin_page/user_control/UpdateUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/admin_page/user_control/ViewUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/admin_page/user_control/ViewUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/device_page/AddDevice.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/device_page/AddDevice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/device_page/UpdateDevice.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/device_page/UpdateDevice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/device_page/ViewDevice.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/device_page/ViewDevice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/pages/login_page/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/pages/login_page/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/user_page/MyDevices.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/user_page/MyDevices.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/user_page/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/user_page/User.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2FiQzj8hJMUXTznMimdleZ0fkSB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/An4_sem1/SD/spring-user&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.38505748&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;2041fd43e27a869a79736237b340735b&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\An4_sem1\DS2023_30643_Vasilache_Maria_Assignment_1\spring-user\target" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.Dockerfile">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="spring-demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="spring-demo" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ds2020Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" show_console_on_std_out="true">
+      <module name="ds-2020" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ro.tuc.ds2020.Ds2020Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.Dockerfile" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4392c823-a521-4d9c-91b4-7e421ff00324" name="Default Changelist" comment="" />
+      <created>1664972691115</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664972691115</updated>
+      <workItem from="1664972693235" duration="37000" />
+      <workItem from="1664972749401" duration="1299000" />
+      <workItem from="1664974086731" duration="3792000" />
+      <workItem from="1665388187958" duration="2778000" />
+      <workItem from="1665571986841" duration="5991000" />
+      <workItem from="1665831312873" duration="1254000" />
+      <workItem from="1665916576677" duration="8639000" />
+      <workItem from="1666161122318" duration="2254000" />
+      <workItem from="1666177260129" duration="1920000" />
+      <workItem from="1666426676802" duration="21374000" />
+      <workItem from="1666507650203" duration="11066000" />
+      <workItem from="1666548136828" duration="3944000" />
+      <workItem from="1666625376484" duration="2396000" />
+      <workItem from="1666631245087" duration="1481000" />
+      <workItem from="1666702913607" duration="7546000" />
+      <workItem from="1666789374125" duration="1190000" />
+      <workItem from="1666799725509" duration="2000" />
+      <workItem from="1666874513563" duration="623000" />
+      <workItem from="1666942759206" duration="543000" />
+      <workItem from="1666965862836" duration="3112000" />
+      <workItem from="1667041236651" duration="4127000" />
+      <workItem from="1667205961008" duration="244000" />
+      <workItem from="1667206241853" duration="3556000" />
+      <workItem from="1667338161181" duration="623000" />
+      <workItem from="1667384222392" duration="11000" />
+      <workItem from="1667390696077" duration="425000" />
+      <workItem from="1667656559175" duration="3117000" />
+      <workItem from="1667765945645" duration="2036000" />
+      <workItem from="1667811518273" duration="1556000" />
+      <workItem from="1667825145201" duration="3651000" />
+      <workItem from="1667999632008" duration="1304000" />
+      <workItem from="1668601847885" duration="305000" />
+      <workItem from="1668604662988" duration="2612000" />
+      <workItem from="1668609615312" duration="38000" />
+      <workItem from="1669207361840" duration="3592000" />
+      <workItem from="1669454386606" duration="7246000" />
+      <workItem from="1669633262091" duration="21740000" />
+      <workItem from="1669715778252" duration="8327000" />
+      <workItem from="1669740152103" duration="12230000" />
+      <workItem from="1669805517745" duration="812000" />
+      <workItem from="1669814465820" duration="13040000" />
+      <workItem from="1669888292372" duration="4694000" />
+      <workItem from="1669916414207" duration="4379000" />
+      <workItem from="1669970449936" duration="9888000" />
+      <workItem from="1670001976377" duration="91000" />
+      <workItem from="1670071775702" duration="636000" />
+      <workItem from="1670153654152" duration="1763000" />
+      <workItem from="1670256077535" duration="413000" />
+      <workItem from="1670325122025" duration="1614000" />
+      <workItem from="1670329530281" duration="1905000" />
+      <workItem from="1670349109957" duration="2000" />
+      <workItem from="1670406754575" duration="1191000" />
+      <workItem from="1670414517794" duration="2476000" />
+      <workItem from="1670938858735" duration="2579000" />
+      <workItem from="1671019310755" duration="1051000" />
+      <workItem from="1703283192494" duration="11236000" />
+      <workItem from="1703930629492" duration="8206000" />
+      <workItem from="1703941511690" duration="694000" />
+      <workItem from="1704110677516" duration="3357000" />
+      <workItem from="1704122138494" duration="20000" />
+      <workItem from="1704918760362" duration="42000" />
+      <workItem from="1704918851985" duration="111000" />
+    </task>
+    <task id="LOCAL-00001" summary="user functionalities">
+      <created>1667042504245</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667042504245</updated>
+    </task>
+    <task id="LOCAL-00002" summary="chart">
+      <created>1667391057160</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667391057160</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="user functionalities" />
+    <MESSAGE value="chart" />
+    <option name="LAST_COMMIT_MESSAGE" value="chart" />
+  </component>
+</project>

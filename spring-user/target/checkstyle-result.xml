@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.18">
+<file name="D:\An4_sem1\DS2023_30643_Vasilache_Maria_Assignment_1\spring-user\src\main\java\ro\tuc\ds2020\controllers\AdminController.java">
+<error line="27" column="19" severity="warning" message="&apos;static&apos; modifier out of order with the JLS suggestions." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="47" column="5" severity="warning" message="Method &apos;getUsers&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="60" column="5" severity="warning" message="Method &apos;getDevices&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="73" column="5" severity="warning" message="Method &apos;getRegularUsers&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="85" column="5" severity="warning" message="Method &apos;deleteUser&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="88" column="38" severity="warning" message="Parameter username should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="101" column="5" severity="warning" message="Method &apos;deleteDevice&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="104" column="40" severity="warning" message="Parameter id should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="117" column="5" severity="warning" message="Method &apos;updateUser&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="120" column="38" severity="warning" message="Parameter userDTO should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="132" column="5" severity="warning" message="Method &apos;updateDevice&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="135" column="40" severity="warning" message="Parameter deviceDTO should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="143" column="5" severity="warning" message="Method &apos;createDevice&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="146" column="40" severity="warning" message="Parameter deviceDTO should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="D:\An4_sem1\DS2023_30643_Vasilache_Maria_Assignment_1\spring-user\src\main\java\ro\tuc\ds2020\controllers\handlers\exceptions\model\CustomException.java">
+<error line="12" column="28" severity="warning" message="Parameter message should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="12" column="44" severity="warning" message="Parameter status should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="12" column="55" severity="warning" message="&apos;status&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="12" column="64" severity="warning" message="Parameter resource should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="12" column="71" severity="warning" message="&apos;resource&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="12" column="81" severity="warning" message="Parameter errors should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="19" column="5" severity="warning" message="Method &apos;getResource&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="23" column="5" severity="warning" message="Method &apos;getStatus&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="27" column="5" severity="warning" message="Method &apos;getValidationErrors&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+</file>
+<file name="D:\An4_sem1\DS2023_30643_Vasilache_Maria_Assignment_1\spring-user\src\main\java\ro\tuc\ds2020\controllers\handlers\exceptions\model\DuplicateResourceException.java">
+<error line="9" column="37" severity="warning" message="Name &apos;httpStatus&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+<error line="11" column="39" severity="warning" message="Parameter resource should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="D:\An4_sem1\DS2023_30643_Vasilache_Maria_Assignment_1\spring-user\src\main\java\ro\tuc\ds2020\controllers\handlers\exceptions\model\EntityValidationException.java">
+<error line="9" column="37" severity="warning" message="Name &apos;httpStatus&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+<error line="11" column="38" severity="warning" message="Parameter resource should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="11" column="55" severity="warning" message="Parameter errors should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="D:\An4_sem1\DS2023_30643_Vasilache_Maria_Assignment_1\spring-user\src\main\java\ro\tuc\ds2020\controllers\handlers\exceptions\model\ExceptionHandlerResponseDTO.java">
+<error line="16" column="40" severity="warning" message="Parameter resource should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="16" column="47" severity="warning" message="&apos;resource&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="16" column="57" severity="warning" message="Parameter error should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="16" column="64" severity="warning" message="&apos;error&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="16" column="71" severity="warning" message="Parameter status should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="16" column="75" severity="warning" message="&apos;status&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="16" column="83" severity="warning" message="Parameter message should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="16" column="90" severity="warning" message="&apos;message&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="16" column="99" severity="warning" message="Parameter details should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="16" column="113" severity="warning" message="&apos;details&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="16" column="122" severity="warning" message="Parameter path should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="16" column="129" severity="warning" message="&apos;path&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="26" column="5" severity="warning" message="Method &apos;getTimestamp&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="30" column="5" severity="warning" message="Method &apos;setTimestamp&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="30" column="30" severity="warning" message="Parameter timestamp should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="30" column="35" severity="warning" message="&apos;timestamp&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="34" column="5" severity="warning" message="Method &apos;getStatus&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="38" column="5" severity="warning" message="Method &apos;setStatus&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="38" column="27" severity="warning" message="Parameter status should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="38" column="31" severity="warning" message="&apos;status&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="42" column="5" severity="warning" message="Method &apos;getResource&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="46" column="5" severity="warning" message="Method &apos;setResource&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="46" column="29" severity="warning" message="Parameter error should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="46" column="36" severity="warning" message="&apos;error&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="50" column="5" severity="warning" message="Method &apos;getMessage&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="54" column="5" severity="warning" message="Method &apos;setMessage&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="54" column="28" severity="warning" message="Parameter message should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="54" column="35" severity="warning" message="&apos;message&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="58" column="5" severity="warning" message="Method &apos;getPath&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="62" column="5" severity="warning" message="Method &apos;setPath&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="62" column="25" severity="warning" message="Parameter path should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="62" column="32" severity="warning" message="&apos;path&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="66" column="5" severity="warning" message="Method &apos;getDetails&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="70" column="5" severity="warning" message="Method &apos;setDetails&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="70" column="28" severity="warning" message="Parameter details should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="70" column="42" severity="warning" message="&apos;details&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="74" column="5" severity="warning" message="Method &apos;getError&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="78" column="5" severity="warning" message="Method &apos;setError&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="78" column="26" severity="warning" message="Parameter error should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="78" column="33" severity="warning" message="&apos;error&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+</file>
+<file name="D:\An4_sem1\DS2023_30643_Vasilache_Maria_Assignment_1\spring-user\src\main\java\ro\tuc\ds2020\controllers\handlers\exceptions\model\ParameterValidationException.java">
+<error line="9" column="37" severity="warning" message="Name &apos;httpStatus&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+<error line="11" column="41" severity="warning" message="Parameter resource should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="11" column="58" severity="warning" message="Parameter errors should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="D:\An4_sem1\DS2023_30643_Vasilache_Maria_Assignment_1\spring-user\src\main\java\ro\tuc\ds2020\controllers\handlers\exceptions\model\ResourceNotFoundException.java">
+<error line="9" column="37" severity="warning" message="Name &apos;httpStatus&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+<error line="11" column="38" severity="warning" message="Parameter resource should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="D:\An4_sem1\DS2023_30643_Vasilache_Maria_Assignment_1\spring-user\src\main\java\ro\tuc\ds2020\controllers\handlers\RestExceptionHandler.java">
+<error line="23" column="5" severity="warning" message="Method &apos;handleConstraintViolationException&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="24" column="70" severity="warning" message="Parameter e should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="24" column="102" severity="warning" message="Parameter request should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="42" column="5" severity="warning" message="Method &apos;handleMethodArgumentNotValid&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="43" column="67" severity="warning" message="Parameter ex should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="43" column="103" severity="warning" message="Parameter headers should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="43" column="124" severity="warning" message="Parameter status should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="43" column="143" severity="warning" message="Parameter request should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="66" column="5" severity="warning" message="Method &apos;handleCustomExceptions&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="67" column="61" severity="warning" message="Parameter ex should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="68" column="61" severity="warning" message="Parameter request should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="D:\An4_sem1\DS2023_30643_Vasilache_Maria_Assignment_1\spring-user\src\main\java\ro\tuc\ds2020\controllers\LoginController.java">
+<error line="25" column="19" severity="warning" message="&apos;static&apos; modifier out of order with the JLS suggestions." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="31" column="27" severity="warning" message="Variable &apos;authenticationManager&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="33" column="14" severity="warning" message="Variable &apos;jwtUtils&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="39" column="5" severity="warning" message="Method &apos;loginUser&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="41" column="37" severity="warning" message="Parameter loginDTO should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="D:\An4_sem1\DS2023_30643_Vasilache_Maria_Assignment_1\spring-user\src\main\java\ro\tuc\ds2020\controllers\RegisterController.java">
+<error line="18" column="19" severity="warning" message="&apos;static&apos; modifier out of order with the JLS suggestions." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="23" column="5" severity="warning" message="Method &apos;createUser&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="25" column="38" severity="warning" message="Parameter registerDTO should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="D:\An4_sem1\DS2023_30643_Vasilache_Maria_Assignment_1\spring-user\src\main\java\ro\tuc\ds2020\controllers\UserController.java">
+<error line="44" column="5" severity="warning" message="Method &apos;getDevices&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="47" column="54" severity="warning" message="Parameter username should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="D:\An4_sem1\DS2023_30643_Vasilache_Maria_Assignment_1\spring-user\src\main\java\ro\tuc\ds2020\Ds2020Application.java">
+<error line="4" column="8" severity="warning" message="Unused import - org.springframework.beans.factory.config.AutowireCapableBeanFactory." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="9" column="8" severity="warning" message="Unused import - org.springframework.context.ApplicationContext." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="10" column="8" severity="warning" message="Unused import - org.springframework.context.annotation.AnnotationConfigApplicationContext." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="14" column="8" severity="warning" message="Unused import - ro.tuc.ds2020.services.MeasurementService." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="32" column="5" severity="warning" message="Method &apos;configure&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="33" column="50" severity="warning" message="Parameter application should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="37" column="5" severity="warning" message="Method &apos;init&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="43" column="29" severity="warning" message="Parameter args should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="47" column="5" severity="warning" message="Method &apos;printOkMessage&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="47" column="28" severity="warning" message="&apos;60000&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+<file name="D:\An4_sem1\DS2023_30643_Vasilache_Maria_Assignment_1\spring-user\src\main\java\ro\tuc\ds2020\dtos\builders\DeviceBuilder.java">
+<error line="14" column="5" severity="warning" message="Method &apos;toEntity&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="14" column="28" severity="warning" message="Parameter deviceDTO should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="14" column="49" severity="warning" message="Parameter user should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="24" column="5" severity="warning" message="Method &apos;toDeviceDTO&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="24" column="34" severity="warning" message="Parameter device should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="35" column="5" severity="warning" message="Method &apos;toDisplayDevice&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="35" column="45" severity="warning" message="Parameter device should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="35" column="60" severity="warning" message="Parameter user should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="46" column="5" severity="warning" message="Method &apos;toDeviceWithMeasurementDTO&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="46" column="64" severity="warning" message="Parameter device should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="46" column="79" severity="warning" message="Parameter measurementDTOList should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="D:\An4_sem1\DS2023_30643_Vasilache_Maria_Assignment_1\spring-user\src\main\java\ro\tuc\ds2020\dtos\builders\MeasurementBuilder.java">
+<error line="11" column="5" severity="warning" message="Method &apos;toMeasurementDTO&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="11" column="44" severity="warning" message="Parameter measurement should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="24" column="29" severity="warning" message="Parameter timestamp should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="25" column="55" severity="warning" message="&apos;4&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="28" column="30" severity="warning" message="Parameter timestamp should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="29" column="53" severity="warning" message="&apos;5&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="29" column="55" severity="warning" message="&apos;7&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="32" column="28" severity="warning" message="Parameter timestamp should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="33" column="53" severity="warning" message="&apos;8&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="33" column="55" severity="warning" message="&apos;10&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="36" column="29" severity="warning" message="Parameter timestamp should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="37" column="53" severity="warning" message="&apos;11&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="37" column="56" severity="warning" message="&apos;13&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+<file name="D:\An4_sem1\DS2023_30643_Vasilache_Maria_Assignment_1\spring-user\src\main\java\ro\tuc\ds2020\dtos\builders\UserBuilder.java">
+<error line="22" column="5" severity="warning" message="Method &apos;toLoginDTO&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="22" column="32" severity="warning" message="Parameter user should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="29" column="5" severity="warning" message="Method &apos;toRegisterDTO&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="29" column="38" severity="warning" message="Parameter user should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="38" column="5" severity="warning" message="Method &apos;toUserDTO&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="38" column="30" severity="warning" message="Parameter user should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="53" column="5" severity="warning" message="Method &apos;toEntityFromRegisterDTO&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="53" column="41" severity="warning" message="Parameter registerDTO should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="D:\An4_sem1\DS2023_30643_Vasilache_Maria_Assignment_1\spring-user\src\main\java\ro\tuc\ds2020\dtos\DeviceDTO.java">
+<error line="31" column="5" severity="warning" message="Method &apos;getName&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="35" column="5" severity="warning" message="Method &apos;setName&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="35" column="25" severity="warning" message="Parameter name should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="35" column="32" severity="warning" message="&apos;name&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="39" column="5" severity="warning" message="Method &apos;getDescription&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="43" column="5" severity="warning" message="Method &apos;setDescription&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="43" column="32" severity="warning" message="Parameter description should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="43" column="39" severity="warning" message="&apos;description&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="47" column="5" severity="warning" message="Method &apos;getAddress&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="51" column="5" severity="warning" message="Method &apos;setAddress&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="51" column="28" severity="warning" message="Parameter address should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="51" column="35" severity="warning" message="&apos;address&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="55" column="5" severity="warning" message="Method &apos;getMaxHourlyEnergyConsumption&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="59" column="5" severity="warning" message="Method &apos;setMaxHourlyEnergyConsumption&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="59" column="47" severity="warning" message="Parameter maxHourlyEnergyConsumption should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="59" column="54" severity="warning" message="&apos;maxHourlyEnergyConsumption&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="63" column="5" severity="warning" message="Method &apos;getUserId&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="67" column="5" severity="warning" message="Method &apos;setUserId&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="67" column="27" severity="warning" message="Parameter userId should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="67" column="35" severity="warning" message="&apos;userId&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="71" column="5" severity="warning" message="Method &apos;getId&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="75" column="5" severity="warning" message="Method &apos;setId&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="75" column="23" severity="warning" message="Parameter id should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="75" column="31" severity="warning" message="&apos;id&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+</file>
+<file name="D:\An4_sem1\DS2023_30643_Vasilache_Maria_Assignment_1\spring-user\src\main\java\ro\tuc\ds2020\dtos\DeviceWithMeasurementDTO.java">
+<error line="39" column="5" severity="warning" message="Method &apos;getId&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="43" column="5" severity="warning" message="Method &apos;setId&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="43" column="23" severity="warning" message="Parameter id should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="43" column="31" severity="warning" message="&apos;id&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="47" column="5" severity="warning" message="Method &apos;getName&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="51" column="5" severity="warning" message="Method &apos;setName&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="51" column="25" severity="warning" message="Parameter name should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="51" column="32" severity="warning" message="&apos;name&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="55" column="5" severity="warning" message="Method &apos;getDescription&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="59" column="5" severity="warning" message="Method &apos;setDescription&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="59" column="32" severity="warning" message="Parameter description should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="59" column="39" severity="warning" message="&apos;description&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="63" column="5" severity="warning" message="Method &apos;getAddress&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="67" column="5" severity="warning" message="Method &apos;setAddress&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="67" column="28" severity="warning" message="Parameter address should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="67" column="35" severity="warning" message="&apos;address&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="71" column="5" severity="warning" message="Method &apos;getMaxHourlyEnergyConsumption&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="75" column="5" severity="warning" message="Method &apos;setMaxHourlyEnergyConsumption&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="75" column="47" severity="warning" message="Parameter maxHourlyEnergyConsumption should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="75" column="54" severity="warning" message="&apos;maxHourlyEnergyConsumption&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="79" column="5" severity="warning" message="Method &apos;getUserId&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="83" column="5" severity="warning" message="Method &apos;setUserId&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="83" column="27" severity="warning" message="Parameter userId should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="83" column="35" severity="warning" message="&apos;userId&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="87" column="5" severity="warning" message="Method &apos;getMeasurements&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="91" column="5" severity="warning" message="Method &apos;setMeasurements&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="91" column="33" severity="warning" message="Parameter measurements should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="91" column="54" severity="warning" message="&apos;measurements&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+</file>
+<file name="D:\An4_sem1\DS2023_30643_Vasilache_Maria_Assignment_1\spring-user\src\main\java\ro\tuc\ds2020\dtos\DisplayDeviceDTO.java">
+<error line="31" column="5" severity="warning" message="Method &apos;getName&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="35" column="5" severity="warning" message="Method &apos;setName&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="35" column="25" severity="warning" message="Parameter name should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="35" column="32" severity="warning" message="&apos;name&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="39" column="5" severity="warning" message="Method &apos;getDescription&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="43" column="5" severity="warning" message="Method &apos;setDescription&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="43" column="32" severity="warning" message="Parameter description should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="43" column="39" severity="warning" message="&apos;description&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="47" column="5" severity="warning" message="Method &apos;getAddress&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="51" column="5" severity="warning" message="Method &apos;setAddress&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="51" column="28" severity="warning" message="Parameter address should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="51" column="35" severity="warning" message="&apos;address&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="55" column="5" severity="warning" message="Method &apos;getMaxHourlyEnergyConsumption&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="59" column="5" severity="warning" message="Method &apos;setMaxHourlyEnergyConsumption&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="59" column="47" severity="warning" message="Parameter maxHourlyEnergyConsumption should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="59" column="54" severity="warning" message="&apos;maxHourlyEnergyConsumption&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="63" column="5" severity="warning" message="Method &apos;getUser&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="67" column="5" severity="warning" message="Method &apos;setUser&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="67" column="25" severity="warning" message="Parameter user should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="67" column="33" severity="warning" message="&apos;user&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="71" column="5" severity="warning" message="Method &apos;getId&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="75" column="5" severity="warning" message="Method &apos;setId&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="75" column="23" severity="warning" message="Parameter id should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="75" column="31" severity="warning" message="&apos;id&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+</file>
+<file name="D:\An4_sem1\DS2023_30643_Vasilache_Maria_Assignment_1\spring-user\src\main\java\ro\tuc\ds2020\dtos\LoginDTO.java">
+<error line="17" column="5" severity="warning" message="Method &apos;getUsername&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="21" column="5" severity="warning" message="Method &apos;setUsername&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="21" column="29" severity="warning" message="Parameter username should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="21" column="36" severity="warning" message="&apos;username&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="25" column="5" severity="warning" message="Method &apos;getPassword&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="29" column="5" severity="warning" message="Method &apos;setPassword&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="29" column="29" severity="warning" message="Parameter password should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="29" column="36" severity="warning" message="&apos;password&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+</file>
+<file name="D:\An4_sem1\DS2023_30643_Vasilache_Maria_Assignment_1\spring-user\src\main\java\ro\tuc\ds2020\dtos\MeasurementDTO.java">
+<error line="34" column="5" severity="warning" message="Method &apos;getId&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="38" column="5" severity="warning" message="Method &apos;setId&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="38" column="23" severity="warning" message="Parameter id should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="38" column="31" severity="warning" message="&apos;id&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="42" column="5" severity="warning" message="Method &apos;getDay&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="46" column="5" severity="warning" message="Method &apos;setDay&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="46" column="24" severity="warning" message="Parameter day should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="46" column="32" severity="warning" message="&apos;day&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="50" column="5" severity="warning" message="Method &apos;getMonth&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="54" column="5" severity="warning" message="Method &apos;setMonth&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="54" column="26" severity="warning" message="Parameter month should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="54" column="34" severity="warning" message="&apos;month&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="58" column="5" severity="warning" message="Method &apos;getYear&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="62" column="5" severity="warning" message="Method &apos;setYear&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="62" column="25" severity="warning" message="Parameter year should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="62" column="33" severity="warning" message="&apos;year&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="66" column="5" severity="warning" message="Method &apos;getHour&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="70" column="5" severity="warning" message="Method &apos;setHour&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="70" column="25" severity="warning" message="Parameter hour should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="70" column="33" severity="warning" message="&apos;hour&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="74" column="5" severity="warning" message="Method &apos;getValue&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="78" column="5" severity="warning" message="Method &apos;setValue&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="78" column="26" severity="warning" message="Parameter value should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="78" column="33" severity="warning" message="&apos;value&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+</file>
+<file name="D:\An4_sem1\DS2023_30643_Vasilache_Maria_Assignment_1\spring-user\src\main\java\ro\tuc\ds2020\dtos\RegisterDTO.java">
+<error line="24" column="5" severity="warning" message="Method &apos;getUsername&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="28" column="5" severity="warning" message="Method &apos;setUsername&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="28" column="29" severity="warning" message="Parameter username should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="28" column="36" severity="warning" message="&apos;username&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="32" column="5" severity="warning" message="Method &apos;getPassword&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="36" column="5" severity="warning" message="Method &apos;setPassword&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="36" column="29" severity="warning" message="Parameter password should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="36" column="36" severity="warning" message="&apos;password&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="40" column="5" severity="warning" message="Method &apos;getName&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="44" column="5" severity="warning" message="Method &apos;setName&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="44" column="25" severity="warning" message="Parameter name should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="44" column="32" severity="warning" message="&apos;name&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="48" column="5" severity="warning" message="Method &apos;getRole&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="52" column="5" severity="warning" message="Method &apos;setRole&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="52" column="25" severity="warning" message="Parameter role should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="52" column="32" severity="warning" message="&apos;role&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+</file>
+<file name="D:\An4_sem1\DS2023_30643_Vasilache_Maria_Assignment_1\spring-user\src\main\java\ro\tuc\ds2020\dtos\UserDTO.java">
+<error line="28" column="5" severity="warning" message="Method &apos;getName&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="32" column="5" severity="warning" message="Method &apos;setName&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="32" column="25" severity="warning" message="Parameter name should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="32" column="32" severity="warning" message="&apos;name&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="36" column="5" severity="warning" message="Method &apos;getUsername&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="40" column="5" severity="warning" message="Method &apos;setUsername&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="40" column="29" severity="warning" message="Parameter username should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="40" column="36" severity="warning" message="&apos;username&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="44" column="5" severity="warning" message="Method &apos;getRole&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="48" column="5" severity="warning" message="Method &apos;setRole&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="48" column="25" severity="warning" message="Parameter role should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="48" column="32" severity="warning" message="&apos;role&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="52" column="5" severity="warning" message="Method &apos;getId&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="56" column="5" severity="warning" message="Method &apos;setId&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="56" column="23" severity="warning" message="Parameter id should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="56" column="31" severity="warning" message="&apos;id&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="60" column="5" severity="warning" message="Method &apos;getDevices&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="64" column="5" severity="warning" message="Method &apos;setDevices&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="64" column="28" severity="warning" message="Parameter devices should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="64" column="44" severity="warning" message="&apos;devices&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+</file>
+<file name="D:\An4_sem1\DS2023_30643_Vasilache_Maria_Assignment_1\spring-user\src\main\java\ro\tuc\ds2020\dtos\validators\AgeValidator.java">
+<error line="14" column="5" severity="warning" message="Method &apos;initialize&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="15" column="28" severity="warning" message="Parameter constraintAnnotation should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="19" column="5" severity="warning" message="Method &apos;isValid&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="20" column="28" severity="warning" message="Parameter inputAge should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="20" column="46" severity="warning" message="Parameter constraintValidatorContext should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="D:\An4_sem1\DS2023_30643_Vasilache_Maria_Assignment_1\spring-user\src\main\java\ro\tuc\ds2020\dtos\validators\annotation\AgeLimit.java">
+<error line="15" column="25" severity="warning" message="&apos;120&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+<file name="D:\An4_sem1\DS2023_30643_Vasilache_Maria_Assignment_1\spring-user\src\main\java\ro\tuc\ds2020\entities\Device.java">
+<error line="43" column="5" severity="warning" message="Method &apos;getId&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="47" column="5" severity="warning" message="Method &apos;setId&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="47" column="23" severity="warning" message="Parameter id should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="47" column="31" severity="warning" message="&apos;id&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="51" column="5" severity="warning" message="Method &apos;getName&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="55" column="5" severity="warning" message="Method &apos;setName&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="55" column="25" severity="warning" message="Parameter name should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="55" column="32" severity="warning" message="&apos;name&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="59" column="5" severity="warning" message="Method &apos;getDescription&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="63" column="5" severity="warning" message="Method &apos;setDescription&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="63" column="32" severity="warning" message="Parameter description should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="63" column="39" severity="warning" message="&apos;description&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="67" column="5" severity="warning" message="Method &apos;getAddress&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="71" column="5" severity="warning" message="Method &apos;setAddress&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="71" column="28" severity="warning" message="Parameter address should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="71" column="35" severity="warning" message="&apos;address&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="75" column="5" severity="warning" message="Method &apos;getMaxHourlyEnergyConsumption&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="79" column="5" severity="warning" message="Method &apos;setMaxHourlyEnergyConsumption&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="79" column="47" severity="warning" message="Parameter maxHourlyEnergyConsumption should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="79" column="54" severity="warning" message="&apos;maxHourlyEnergyConsumption&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="83" column="5" severity="warning" message="Method &apos;getUser&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="87" column="5" severity="warning" message="Method &apos;setUser&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="87" column="25" severity="warning" message="Parameter user should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="87" column="30" severity="warning" message="&apos;user&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="91" column="5" severity="warning" message="Method &apos;getMeasurements&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="95" column="5" severity="warning" message="Method &apos;setMeasurements&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="95" column="33" severity="warning" message="Parameter measurements should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="95" column="51" severity="warning" message="&apos;measurements&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+</file>
+<file name="D:\An4_sem1\DS2023_30643_Vasilache_Maria_Assignment_1\spring-user\src\main\java\ro\tuc\ds2020\entities\Measurement.java">
+<error line="33" column="5" severity="warning" message="Method &apos;getId&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="37" column="5" severity="warning" message="Method &apos;setId&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="37" column="23" severity="warning" message="Parameter id should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="37" column="31" severity="warning" message="&apos;id&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="41" column="5" severity="warning" message="Method &apos;getTimestamp&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="45" column="5" severity="warning" message="Method &apos;setTimestamp&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="45" column="30" severity="warning" message="Parameter timestamp should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="45" column="37" severity="warning" message="&apos;timestamp&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="49" column="5" severity="warning" message="Method &apos;getValue&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="53" column="5" severity="warning" message="Method &apos;setValue&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="53" column="26" severity="warning" message="Parameter value should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="53" column="33" severity="warning" message="&apos;value&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="57" column="5" severity="warning" message="Method &apos;getDevice&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="61" column="5" severity="warning" message="Method &apos;setDevice&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="61" column="27" severity="warning" message="Parameter device should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="61" column="34" severity="warning" message="&apos;device&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+</file>
+<file name="D:\An4_sem1\DS2023_30643_Vasilache_Maria_Assignment_1\spring-user\src\main\java\ro\tuc\ds2020\entities\User.java">
+<error line="40" column="17" severity="warning" message="Parameter name should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="40" column="24" severity="warning" message="&apos;name&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="40" column="30" severity="warning" message="Parameter username should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="40" column="37" severity="warning" message="&apos;username&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="40" column="47" severity="warning" message="Parameter password should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="40" column="54" severity="warning" message="&apos;password&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="40" column="64" severity="warning" message="Parameter role should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="40" column="73" severity="warning" message="&apos;role&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="47" column="17" severity="warning" message="Parameter id should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="47" column="25" severity="warning" message="&apos;id&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="47" column="29" severity="warning" message="Parameter name should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="47" column="36" severity="warning" message="&apos;name&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="47" column="42" severity="warning" message="Parameter username should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="47" column="49" severity="warning" message="&apos;username&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="47" column="59" severity="warning" message="Parameter password should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="47" column="66" severity="warning" message="&apos;password&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="47" column="76" severity="warning" message="Parameter role should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="47" column="85" severity="warning" message="&apos;role&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="56" column="5" severity="warning" message="Method &apos;getId&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="60" column="5" severity="warning" message="Method &apos;setId&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="60" column="23" severity="warning" message="Parameter id should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="60" column="31" severity="warning" message="&apos;id&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="64" column="5" severity="warning" message="Method &apos;getName&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="68" column="5" severity="warning" message="Method &apos;setName&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="68" column="25" severity="warning" message="Parameter name should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="68" column="32" severity="warning" message="&apos;name&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="72" column="5" severity="warning" message="Method &apos;getRole&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="76" column="5" severity="warning" message="Method &apos;setRole&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="76" column="25" severity="warning" message="Parameter role should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="76" column="34" severity="warning" message="&apos;role&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="80" column="5" severity="warning" message="Method &apos;getUsername&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="84" column="5" severity="warning" message="Method &apos;setUsername&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="84" column="29" severity="warning" message="Parameter username should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="84" column="36" severity="warning" message="&apos;username&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="88" column="5" severity="warning" message="Method &apos;getPassword&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="92" column="5" severity="warning" message="Method &apos;setPassword&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="92" column="29" severity="warning" message="Parameter password should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="92" column="36" severity="warning" message="&apos;password&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="96" column="5" severity="warning" message="Method &apos;getDevices&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="100" column="5" severity="warning" message="Method &apos;setDevices&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="100" column="28" severity="warning" message="Parameter devices should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="100" column="41" severity="warning" message="&apos;devices&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+</file>
+<file name="D:\An4_sem1\DS2023_30643_Vasilache_Maria_Assignment_1\spring-user\src\main\java\ro\tuc\ds2020\repositories\DeviceRepository.java">
+<error line="13" column="4" severity="warning" message="Redundant &apos;public&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+</file>
+<file name="D:\An4_sem1\DS2023_30643_Vasilache_Maria_Assignment_1\spring-user\src\main\java\ro\tuc\ds2020\security\AuthEntryPointJwt.java">
+<error line="17" column="33" severity="warning" message="Name &apos;logger&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+<error line="18" column="5" severity="warning" message="Method &apos;commence&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="19" column="26" severity="warning" message="Parameter request should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="19" column="54" severity="warning" message="Parameter response should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="20" column="26" severity="warning" message="Parameter authException should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="D:\An4_sem1\DS2023_30643_Vasilache_Maria_Assignment_1\spring-user\src\main\java\ro\tuc\ds2020\security\AuthTokenFilter.java">
+<error line="26" column="33" severity="warning" message="Name &apos;logger&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+<error line="28" column="5" severity="warning" message="Method &apos;doFilterInternal&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="29" column="37" severity="warning" message="Parameter request should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="29" column="65" severity="warning" message="Parameter response should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="29" column="95" severity="warning" message="Parameter filterChain should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="47" column="29" severity="warning" message="Parameter request should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="50" column="41" severity="warning" message="&apos;7&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+<file name="D:\An4_sem1\DS2023_30643_Vasilache_Maria_Assignment_1\spring-user\src\main\java\ro\tuc\ds2020\security\JwtResponse.java">
+<error line="11" column="24" severity="warning" message="Parameter accessToken should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="11" column="44" severity="warning" message="Parameter id should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="11" column="52" severity="warning" message="&apos;id&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="11" column="56" severity="warning" message="Parameter username should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="11" column="63" severity="warning" message="&apos;username&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="11" column="73" severity="warning" message="Parameter name should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="11" column="80" severity="warning" message="&apos;name&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="11" column="86" severity="warning" message="Parameter role should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="11" column="93" severity="warning" message="&apos;role&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="19" column="5" severity="warning" message="Method &apos;getAccessToken&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="23" column="5" severity="warning" message="Method &apos;setAccessToken&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="23" column="32" severity="warning" message="Parameter accessToken should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="27" column="5" severity="warning" message="Method &apos;getTokenType&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="31" column="5" severity="warning" message="Method &apos;setTokenType&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="31" column="30" severity="warning" message="Parameter tokenType should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="35" column="5" severity="warning" message="Method &apos;getId&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="39" column="5" severity="warning" message="Method &apos;setId&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="39" column="23" severity="warning" message="Parameter id should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="39" column="31" severity="warning" message="&apos;id&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="43" column="5" severity="warning" message="Method &apos;getName&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="47" column="5" severity="warning" message="Method &apos;setName&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="47" column="25" severity="warning" message="Parameter name should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="47" column="32" severity="warning" message="&apos;name&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="51" column="5" severity="warning" message="Method &apos;getUsername&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="55" column="5" severity="warning" message="Method &apos;setUsername&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="55" column="29" severity="warning" message="Parameter username should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="55" column="36" severity="warning" message="&apos;username&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="59" column="5" severity="warning" message="Method &apos;getRole&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+</file>
+<file name="D:\An4_sem1\DS2023_30643_Vasilache_Maria_Assignment_1\spring-user\src\main\java\ro\tuc\ds2020\security\JwtUtils.java">
+<error line="13" column="33" severity="warning" message="Name &apos;logger&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+<error line="18" column="33" severity="warning" message="&apos;86400000&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="20" column="5" severity="warning" message="Method &apos;generateJwtToken&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="20" column="36" severity="warning" message="Parameter authentication should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="29" column="5" severity="warning" message="Method &apos;getUserNameFromJwtToken&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="29" column="43" severity="warning" message="Parameter token should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="32" column="5" severity="warning" message="Method &apos;validateJwtToken&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="32" column="37" severity="warning" message="Parameter authToken should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="D:\An4_sem1\DS2023_30643_Vasilache_Maria_Assignment_1\spring-user\src\main\java\ro\tuc\ds2020\security\UserDetailsImpl.java">
+<error line="19" column="28" severity="warning" message="Parameter id should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="19" column="36" severity="warning" message="&apos;id&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="19" column="40" severity="warning" message="Parameter username should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="19" column="47" severity="warning" message="&apos;username&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="19" column="57" severity="warning" message="Parameter name should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="19" column="64" severity="warning" message="&apos;name&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="19" column="70" severity="warning" message="Parameter password should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="19" column="77" severity="warning" message="&apos;password&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="20" column="28" severity="warning" message="Parameter authorities should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="20" column="67" severity="warning" message="&apos;authorities&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="27" column="41" severity="warning" message="Parameter user should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="37" column="5" severity="warning" message="Method &apos;getAuthorities&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="41" column="5" severity="warning" message="Method &apos;getId&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="44" column="5" severity="warning" message="Method &apos;getName&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="47" column="5" severity="warning" message="Method &apos;getPassword&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="51" column="5" severity="warning" message="Method &apos;getUsername&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="55" column="5" severity="warning" message="Method &apos;isAccountNonExpired&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="59" column="5" severity="warning" message="Method &apos;isAccountNonLocked&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="63" column="5" severity="warning" message="Method &apos;isCredentialsNonExpired&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="67" column="5" severity="warning" message="Method &apos;isEnabled&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+</file>
+<file name="D:\An4_sem1\DS2023_30643_Vasilache_Maria_Assignment_1\spring-user\src\main\java\ro\tuc\ds2020\security\UserDetailsServiceImpl.java">
+<error line="18" column="20" severity="warning" message="Variable &apos;userRepository&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="20" column="5" severity="warning" message="Method &apos;loadUserByUsername&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="22" column="43" severity="warning" message="Parameter username should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="D:\An4_sem1\DS2023_30643_Vasilache_Maria_Assignment_1\spring-user\src\main\java\ro\tuc\ds2020\security\WebSecurityConfig.java">
+<error line="17" column="8" severity="warning" message="Unused import - javax.servlet.Filter." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="25" column="28" severity="warning" message="Variable &apos;userDetailsService&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="30" column="5" severity="warning" message="Method &apos;authenticationJwtTokenFilter&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="35" column="5" severity="warning" message="Method &apos;configure&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="36" column="27" severity="warning" message="Parameter authenticationManagerBuilder should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="39" column="5" severity="warning" message="Method &apos;authenticationManagerBean&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="44" column="5" severity="warning" message="Method &apos;passwordEncoder&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="48" column="5" severity="warning" message="Method &apos;configure&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="49" column="30" severity="warning" message="Parameter http should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="D:\An4_sem1\DS2023_30643_Vasilache_Maria_Assignment_1\spring-user\src\main\java\ro\tuc\ds2020\services\DeviceService.java">
+<error line="6" column="8" severity="warning" message="Unused import - ro.tuc.ds2020.dtos.UserDTO." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="10" column="8" severity="warning" message="Unused import - ro.tuc.ds2020.enums.UserRole." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="23" column="19" severity="warning" message="&apos;static&apos; modifier out of order with the JLS suggestions." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="37" column="5" severity="warning" message="Method &apos;insertDevice&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="37" column="32" severity="warning" message="Parameter deviceDTO should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="49" column="5" severity="warning" message="Method &apos;getAllDevices&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="53" column="5" severity="warning" message="Method &apos;getAllDevicesByUser&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="53" column="45" severity="warning" message="Parameter username should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="57" column="5" severity="warning" message="Method &apos;updateDevice&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="57" column="35" severity="warning" message="Parameter deviceDTO should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="74" column="5" severity="warning" message="Method &apos;deleteDevice&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="74" column="33" severity="warning" message="Parameter id should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="95" column="5" severity="warning" message="Method &apos;findById&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="95" column="38" severity="warning" message="Parameter id should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="D:\An4_sem1\DS2023_30643_Vasilache_Maria_Assignment_1\spring-user\src\main\java\ro\tuc\ds2020\services\MeasurementService.java">
+<error line="17" column="19" severity="warning" message="&apos;static&apos; modifier out of order with the JLS suggestions." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="27" column="5" severity="warning" message="Method &apos;insertMeasurements&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="27" column="36" severity="warning" message="Parameter deviceId should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="27" column="50" severity="warning" message="Parameter day should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="27" column="59" severity="warning" message="Parameter month should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="27" column="70" severity="warning" message="Parameter year should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="27" column="80" severity="warning" message="Parameter min should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="27" column="89" severity="warning" message="Parameter max should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="28" column="23" severity="warning" message="&apos;24&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="33" column="22" severity="warning" message="&apos;10&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="39" column="20" severity="warning" message="&apos;10&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="45" column="18" severity="warning" message="&apos;10&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="65" column="5" severity="warning" message="Method &apos;insertMeasurement&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="65" column="35" severity="warning" message="Parameter measurement should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="D:\An4_sem1\DS2023_30643_Vasilache_Maria_Assignment_1\spring-user\src\main\java\ro\tuc\ds2020\services\ReceiverService.java">
+<error line="32" column="30" severity="warning" message="Variable &apos;deviceRepository&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="35" column="34" severity="warning" message="Variable &apos;measurementRepository&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="41" column="26" severity="warning" message="Variable &apos;devicesConsumption&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="42" column="26" severity="warning" message="Variable &apos;measurementsCount&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="45" column="5" severity="warning" message="Method &apos;receive&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="48" column="29" severity="warning" message="&apos;5672&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="63" column="40" severity="warning" message="Parameter consumerTag should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="64" column="40" severity="warning" message="Parameter envelope should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="64" column="59" severity="warning" message="Parameter properties should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="65" column="40" severity="warning" message="Parameter body should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="94" column="70" severity="warning" message="&apos;6&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="123" column="5" severity="warning" message="Method &apos;sendNotification&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="124" column="34" severity="warning" message="Parameter device should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="124" column="49" severity="warning" message="Parameter timestamp should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="124" column="67" severity="warning" message="Parameter value should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="138" column="54" severity="warning" message="Parameter timestamp should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="143" column="28" severity="warning" message="Parameter timestamp should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="144" column="38" severity="warning" message="&apos;10&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+<file name="D:\An4_sem1\DS2023_30643_Vasilache_Maria_Assignment_1\spring-user\src\main\java\ro\tuc\ds2020\services\UserService.java">
+<error line="22" column="19" severity="warning" message="&apos;static&apos; modifier out of order with the JLS suggestions." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="37" column="5" severity="warning" message="Method &apos;getAllUsers&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="42" column="5" severity="warning" message="Method &apos;getRegularUsers&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="50" column="5" severity="warning" message="Method &apos;isUsernameUnique&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="50" column="37" severity="warning" message="Parameter username should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="63" column="5" severity="warning" message="Method &apos;insertUser&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="63" column="31" severity="warning" message="Parameter registerDTO should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="77" column="5" severity="warning" message="Method &apos;deleteUser&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="77" column="31" severity="warning" message="Parameter username should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="89" column="5" severity="warning" message="Method &apos;updateUser&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="89" column="31" severity="warning" message="Parameter userDTO should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="D:\An4_sem1\DS2023_30643_Vasilache_Maria_Assignment_1\spring-user\src\main\java\ro\tuc\ds2020\sockets\Message.java">
+<error line="7" column="8" severity="warning" message="Unused import - ro.tuc.ds2020.dtos.DeviceDTO." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+</file>
+<file name="D:\An4_sem1\DS2023_30643_Vasilache_Maria_Assignment_1\spring-user\src\main\java\ro\tuc\ds2020\sockets\WebSocketConfig.java">
+<error line="8" column="8" severity="warning" message="Unused import - org.springframework.web.socket.config.annotation.WebSocketMessageBrokerConfigurer." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="14" column="5" severity="warning" message="Method &apos;registerStompEndpoints&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="15" column="40" severity="warning" message="Parameter stompEndpointRegistry should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="21" column="5" severity="warning" message="Method &apos;configureMessageBroker&apos; is not designed for extension - needs to be abstract, final or empty." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="22" column="40" severity="warning" message="Parameter registry should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+</checkstyle>

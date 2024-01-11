@@ -1,0 +1,47 @@
+.img{
+    height:60px;
+}
+
+.my-navbar {
+    background-color: #3e76ca !important;
+    color: white;
+}
+
+.green-btn {
+    background-color: #3e76ca;
+    color: #232121;
+    padding: 10px 30px;
+}
+
+
+.green-btn:hover {
+    background-color: #218838;
+}
+
+
+.button-section {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.button {
+    display: inline-block;
+    color: #fff;
+    background-color: #007bff;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.image-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}

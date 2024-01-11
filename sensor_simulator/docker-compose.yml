@@ -1,0 +1,11 @@
+version: '3'
+services:
+   api_simulare:
+    build: .
+    environment:
+      - DISPLAY=$DISPLAY
+      - WAYLAND_DISPLAY=$WAYLAND_DISPLAY
+      - X=$X
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - /mnt/wslg:/mnt/wslg

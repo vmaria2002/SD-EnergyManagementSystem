@@ -1,0 +1,13 @@
+controller\MeasurementController.class
+dtos\MonitorizareDTO.class
+view\PaginaMeasurement.class
+view\PaginaStart.class
+view\PaginaSenzor.class
+controller\PaginaStartController.class
+Main.class
+sensor\MessageBean.class
+sensor\ReadSensor.class
+sensor\Sender.class
+controller\PaginaStartController$StartInnerClass.class
+model\Monitorizare.class
+controller\MeasurementController$MeasurementInnerClass.class

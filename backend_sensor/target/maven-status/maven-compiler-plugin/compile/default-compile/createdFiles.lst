@@ -1,0 +1,12 @@
+com\maria\ass1\controller\WebSocketController.class
+com\maria\ass1\service\IEDeviceService.class
+com\maria\ass1\repository\MonitorizareRepository.class
+com\maria\ass1\model\Monitorizare.class
+com\maria\ass1\configuration\WebSocketHandler.class
+com\maria\ass1\model\Consum.class
+com\maria\ass1\service\MonitorizareService.class
+com\maria\ass1\Ass1Application.class
+com\maria\ass1\controller\Mesaj.class
+com\maria\ass1\controller\MonitorizareController.class
+com\maria\ass1\dtos\MonitorizareDTO.class
+com\maria\ass1\configuration\WebSocketConfig.class
